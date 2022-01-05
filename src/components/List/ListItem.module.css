@@ -1,0 +1,24 @@
+.list-item {
+    width: 100%;
+}
+
+.list-item h2, .list-item p {
+    word-wrap: break-word;
+    overflow-x: hidden;
+}
+
+.invisible-nav {
+    display: none;
+}
+
+.visible-nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .invisible-nav {
+        display: flex;
+        gap: 1.5rem;
+    }
+  }

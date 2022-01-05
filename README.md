@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+Добрый день!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Я постарался выполнить тех-задачу в соответствии с требованиями. Но, как Вы сами понимаете, с первого взгляда что кажется очень лёгким, не всегда является таковым.
 
-## Available Scripts
+Прошу учесть - React JS изучаю чуть более года и не претендую на "супер-пупер классный" и оптимальный код. И собеседоваться хочу на junior или в крайнем случае trainee
 
-In the project directory, you can run:
+Сразу отмечу свои минусы, чтобы снять лишние вопросы по тех-задании:
+1) Я использовал библиотеки react-redux, @reduxjs.toolkit для общего стора и свой аккаунт Firebase для осуществления запросов - это пока единственный способ работы с данными, которым я более-менее владею. Уверен - это не надолго.
 
-### `npm start`
+2) Я не использовал React Router, поскольку не умею пока с ним работать. Вместо него я использовал статус компонента Header для навигации между страницами. (Но я собираюсь восполнить этот пробел буквально в течение нескольких дней/недель, так как сейчас занимаюсь библиотекой Redux и работой с REST APIs)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3) Я не использовал CreatePortal для модальных окон, честно говоря, подзабыл, как его граммотно юзать и решил пока не тратить время на повторение пройденного материала. (естественно, никуда не денусь и попрактикую и "отшлифую" его в дальнейшем),
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4) Пусть не смущает Вас стиль моего кода (отсутствие точек с запятой, отсутствие запятых в конце перечня полей в объектах) - это мой домашний стиль, он мне удобен и понятен, но я быстро могу перейти на стиль написания, который требует компания и/или заказчик.
 
-### `npm test`
+Собственно, всё. Прошу, хорошо протестите моё приложение, не сильно влияя на мою Firebase. Опробуйте все возможные варианты, я, конечно же мог упустить некоторые детали.
+Конечно - не весь код, что я написал, знаю наизусть. Пришлось подглядывать в недавние туториалы, гуглить некоторые решения и даже обращаться к друзьям, более прокачаным в React JS, особенно по fetch, async await и генерации модального окна. Но смело скажу, что более 90% кода (createSlice, configureStore, условные рендеринги, все компоненты и внутренние стейты и функции и хуки а так же стилизацию и разметку) писал сам, соответственно своим текущим знаниям.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Прошу Вас указать на мои критические и не очень, ошибки, и, даже если я провалил задание - передать мне некую краткую рецензию через рекрутёра Руслану. Это поможет мне проанализировать свой труд и в будущем избежать подобных "факапов".
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Заранее благодарю! С уважением, Григорий.

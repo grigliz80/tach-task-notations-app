@@ -1,0 +1,34 @@
+.bck {
+    margin: 0 auto;
+    padding: 2rem;
+    height: 100vh;
+    background-color: #444;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form input, .form textarea{
+    padding: 0.7rem;
+    width: 90%;
+    resize: none;
+    border: none;
+}
+
+.nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.restrictions {
+    color: #777;
+    font-style: italic;
+}

@@ -1,0 +1,17 @@
+.header {
+    height: 150px;
+    background-color: rgb(214, 130, 4);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header h1 {
+    color: #eee;
+}
+
+.header nav {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
